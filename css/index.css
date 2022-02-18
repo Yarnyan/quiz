@@ -5,7 +5,8 @@ body {
 }
 
 .quiz-container {
-  max-width: 700px;
+  position: relative;
+  max-width: 1000px;
   min-width: 497px;
   background-color: #ffffff;
   margin: 30px auto;
@@ -21,13 +22,22 @@ body {
 }
 
 #question {
+  max-width: 500px;;
   font-size: 24px;
   color: #000000;
   padding: 15px 0;
   margin-bottom: 10px;
 }
 
+#QuestionImg {
+  left: 625px;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+}
+
 .option {
+  max-width: 500px;
   padding: 15px 0 0 10px;
   color: black;
   border-radius: 5px;
@@ -83,7 +93,6 @@ body {
 }
 
 .button {
-  max-width: 700px;
   border-bottom: 1px solid #ccc;
 }
 
