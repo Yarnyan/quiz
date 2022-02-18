@@ -21,23 +21,23 @@ const btnNext = document.getElementById('btn-next');
 
 let score = 0; //результат 
 
+const QuestionImg = document.getElementById('QuestionImg');
+
 const correctAnswer = document.getElementById('correct-answer'),
       numberOfAllQuestion2 = document.getElementById('number-of-all-questions-2'),
       btnTryAgain = document.getElementById('btn-try-again');
 
 const questions = [
     {
-        question: 'Выбери улицы, в названиях которых есть указания на профессии (которые названы в честь ведущих профессий):',
+        question: 'Выбери улицу, в названии которой есть указание на профессию',
         voprosName: 'Улицы',
         options: [
-            'Металлургов',
-            'Чкалова',
             'Прокатчиков',
+            'Чкалова',
+            'Емлина',
             'Папанинцев',
-            'Строителей',
-            'Космонавтов',
         ],
-        rightAnswer: 3
+        rightAnswer: 0,
     },
     {
         question: 'Дворец ледовых видов спорта находится на улице:',
@@ -48,7 +48,8 @@ const questions = [
             'проспекте Ильича',
             'Емлина',
         ],
-        rightAnswer: 3
+        rightAnswer: 2,
+        QuestionImg: 'https://sun9-53.userapi.com/impg/5ZVeixkfPy9Ahu6zcVjttiM_O9G91aB_9TN1zw/i0aiYKCXF7M.jpg?size=1919x1919&quality=95&sign=b17adf55458ed01fd546987a44f66b61&type=album',
     },
     {
         question: 'Какая улица названа в честь космонавта:',
@@ -70,7 +71,7 @@ const questions = [
             '1 Мая',
             'Герцена',
         ],
-        rightAnswer: 3
+        rightAnswer: 0
     },
     {
         question: 'Исторически самая старая часть города называется:',
@@ -81,62 +82,62 @@ const questions = [
             'Ельничный',
             'Самстрой',
         ],
-        rightAnswer: 3
+        rightAnswer: 0
     },
     {
-        question: 'На фотографии изображен:',
-        voprosName: 'Улицы',
+        question: 'На фотографии изображен памятник:',
+        voprosName: 'Достопримечательности',
         options: [
-            'памятник В.И.Ленину',
-            '«Якорь»',
+            'В.И.Ленину',
             'Ю.Фучику',
             'Д.Карбышеву',
+            'А.Анищенко',
         ],
-        rightAnswer: 3
+        rightAnswer: 0
     },
     {
         question: 'Памятник «Единство фронта и тыла» находится:',
-        voprosName: 'Улицы',
+        voprosName: 'Достопримечательности',
         options: [
             'У центральной проходной Новотрубного завода',
             'На площади Победы',
             'В центральном парке культуры и отдыха',
-            'На Украине',
+            'У кфс',
         ],
-        rightAnswer: 3
+        rightAnswer: 2
     },
     {
-        question: 'Корабельная роща получила свое название:',
-        voprosName: 'Улицы',
+        question: 'Корабельная роща получила свое название',
+        voprosName: 'Достопримечательности',
         options: [
             'Потому что в ней строили корабли',
-            'Потому что в ней росли сосны, из которых делали мачты для кораблей',
+            'потому что в ней росли сосны',
+            'Из которых делали мачты для кораблей',
             'В ней росли сосны, годные для изготовления корабельных мачт',
-            'Исторически так сложилось',
         ],
         rightAnswer: 3
     },
     {
-        question: 'Как первоуральцы называют инновационный культурный центр:',
-        voprosName: 'Улицы',
+        question: 'Как первоуральцы называют инновационный культурный центр?',
+        voprosName: 'Достопримечательности',
         options: [
             'Шайба',
             'Колесо',
             'Окно',
             'Бутылка',
         ],
-        rightAnswer: 3
+        rightAnswer: 0
     },
     {
-        question: 'Современная стела «Европа-Азия» построена из:',
-        voprosName: 'Улицы',
+        question: 'Современная стела «Европа-Азия» построена из',
+        voprosName: 'Достопримечательности',
         options: [
-            'Дерева',
             'Камня',
             'Гранита',
             'Мрамора',
+            'Земли',
         ],
-        rightAnswer: 3
+        rightAnswer: 2
     },
     {
         question: 'Первоначально наш населенный пункт назывался:',
@@ -147,7 +148,7 @@ const questions = [
             'Васильево-Шайтанский завод',
             'Ревда',
         ],
-        rightAnswer: 3
+        rightAnswer: 2
     },
     {
         question: 'Какое животное изображено на гербе города:',
@@ -169,7 +170,7 @@ const questions = [
             '19 веке',
             '20 веке',
         ],
-        rightAnswer: 3
+        rightAnswer: 1
     },
     {
         question: 'Что символизирует соболь на гербе Первоуральска:',
@@ -180,7 +181,7 @@ const questions = [
             'Черты уральского характера',
             'Птицу',
         ],
-        rightAnswer: 3
+        rightAnswer: 0
     },
     {
         question: 'Первоуральск получил статус города и современное название в:',
@@ -191,7 +192,7 @@ const questions = [
             '20 веке',
             '21 веке',
         ],
-        rightAnswer: 3
+        rightAnswer: 2
     },
     {
         question: 'Первоуральск стоит на реке:',
@@ -211,9 +212,9 @@ const questions = [
             'Европе',
             'Азии',
             'Африке',
-            'Аргентине',
+            'Казахстан',
         ],
-        rightAnswer: 3
+        rightAnswer: 0
     },
     {
         question: 'Какие деревья не растут в окрестностях Первоуральска:',
@@ -235,7 +236,7 @@ const questions = [
             'Посёлок городского типа',
             'Село',
         ],
-        rightAnswer: 3
+        rightAnswer: 0
     },
     {
         question: 'Первоуральск находится в:',
@@ -246,7 +247,7 @@ const questions = [
             'Свердловской области',
             'Челябинской области',
         ],
-        rightAnswer: 3
+        rightAnswer: 2
     },
     {
         question: 'Первый владелец завода в поселке Васильево-Шайтанский завод:',
@@ -255,12 +256,12 @@ const questions = [
             'Строганов',
             'Турчанинов',
             'Демидов',
-            'Раимов',
+            'Ковалёв',
         ],
-        rightAnswer: 3
+        rightAnswer: 2
     },
     {
-        question: '«Уральский трубник» - команда суперлиги по:',
+        question: 'Уральский трубник» - команда суперлиги по:',
         voprosName: 'Люди',
         options: [
             'Хоккею с мячом',
@@ -268,7 +269,7 @@ const questions = [
             'Футболу',
             'Баскетболу',
         ],
-        rightAnswer: 3
+        rightAnswer: 0
     },
     {
         question: 'Жителей нашего города называют:',
@@ -279,7 +280,7 @@ const questions = [
             'Первоуряне',
             'Первочане',
         ],
-        rightAnswer: 3
+        rightAnswer: 0
     },
     {
         question: 'Шайтан в переводе означает:',
@@ -290,7 +291,7 @@ const questions = [
             'Лесной дух',
             'Узбек',
         ],
-        rightAnswer: 3
+        rightAnswer: 1
     },
     {
         question: 'На какой фотографии изображен Новотрубный завод:',
@@ -323,7 +324,7 @@ const questions = [
             'Новотрубный',
             'Горного оборудования',
         ],
-        rightAnswer: 3
+        rightAnswer: 2
     },
     {
         question: 'Какого транспорта нет в нашем городе:',
@@ -334,7 +335,7 @@ const questions = [
             'Автомобиля',
             'Троллейбус',
         ],
-        rightAnswer: 3
+        rightAnswer: 0
     },
     {
         question: 'Какого завода нет в Первоуральске:',
@@ -345,7 +346,7 @@ const questions = [
             'Динас',
             'НТЗ',
         ],
-        rightAnswer: 3
+        rightAnswer: 1
     },
 ];
 
@@ -355,7 +356,8 @@ numberOfAllQuestion.innerHTML = questions.length  // количество воп
 const load = () => {
     question.innerHTML = questions[indexOfQuestion].question //вопрос
     voprosName.innerHTML = questions[indexOfQuestion].voprosName //категория
-    
+    QuestionImg.innerHTML = questions[indexOfQuestion].QuestionImg
+
     option1.innerHTML = questions[indexOfQuestion].options[0]; //Варианты ответов
     option2.innerHTML = questions[indexOfQuestion].options[1];
     option3.innerHTML = questions[indexOfQuestion].options[2];
@@ -378,6 +380,8 @@ const question_run = () => {
     }
 }
 
+
+/*
 const randomQuestion = () => {
     console.log("===>>> randomQuestion");
     let randomNumber = Math.floor(Math.random() * questions.length);
@@ -411,6 +415,8 @@ const numberQq = () => {
     indexOfQuestion++;
     load();
 }
+*/
+
 
 const checkAnswer = el => {
     console.log("===>>> checkAnswer");
@@ -457,6 +463,7 @@ const updateAnswerTracker = status => {     //стиль счёта
     answersTracker.children[indexOfPage - 1].classList.add(`${status}`);
 };
 
+
 const validate = () => {                   //валидация ответов
     console.log("===>>> validate");
     if(!optionElements[0].classList.contains('disabled')) {
@@ -466,7 +473,6 @@ const validate = () => {                   //валидация ответов
         enableOptions();
     }
 };
-
 
 
 btnNext.addEventListener('click', validate);
