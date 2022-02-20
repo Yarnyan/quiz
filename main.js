@@ -38,6 +38,7 @@ const questions = [
             'Папанинцев',
         ],
         rightAnswer: 0,
+        QuestionImg: 'https://sun9-50.userapi.com/impg/f3pAvE8iUsAIa7nwcnVIJP5s8yIjYW9af-b1ow/E7wUm7RlTG4.jpg?size=700x564&quality=96&sign=7e71d0978a3c5a4ecb42217b8511ff9f&type=album',
     },
     {
         question: 'Дворец ледовых видов спорта находится на улице:',
@@ -49,7 +50,7 @@ const questions = [
             'Емлина',
         ],
         rightAnswer: 2,
-        QuestionImg: 'https://sun9-53.userapi.com/impg/5ZVeixkfPy9Ahu6zcVjttiM_O9G91aB_9TN1zw/i0aiYKCXF7M.jpg?size=1919x1919&quality=95&sign=b17adf55458ed01fd546987a44f66b61&type=album',
+        QuestionImg: 'https://sun9-33.userapi.com/impg/XUDB_945zyNr2cWCL0z49qYNkGgt7NtVhMFZpQ/MD2omb0HOE8.jpg?size=999x446&quality=96&sign=282b28bf78bdc6a0654dfc33441f72fa&type=album',
     },
     {
         question: 'Какая улица названа в честь космонавта:',
@@ -60,7 +61,8 @@ const questions = [
             'Луначарского',
             'Гагарина',
         ],
-        rightAnswer: 3
+        rightAnswer: 3,
+        QuestionImg: 'https://sun9-68.userapi.com/impg/wE2dGG5M6OA-JaMLSjJRd2RfVUzn0IkhQTN-MA/SfVKHJOmKjg.jpg?size=1513x2048&quality=96&sign=42ccd2e09e79a2f542640e045b184a70&type=album',
     },
     {
         question: 'На фотографии изображена улица:',
@@ -71,7 +73,8 @@ const questions = [
             '1 Мая',
             'Герцена',
         ],
-        rightAnswer: 0
+        rightAnswer: 0,
+        QuestionImg: 'https://sun9-88.userapi.com/impg/wH11oGm6RiV00LjKM70PZZsSz9DZAh7fuTWIxg/CzY8K4_VMQA.jpg?size=1024x768&quality=96&sign=455ef320c4cecb336bba88ac7d22b6b7&type=album',
     },
     {
         question: 'Исторически самая старая часть города называется:',
@@ -82,7 +85,8 @@ const questions = [
             'Ельничный',
             'Самстрой',
         ],
-        rightAnswer: 0
+        rightAnswer: 0,
+        QuestionImg: 'http://photos.wikimapia.org/p/00/05/49/46/00_big.jpg',
     },
     {
         question: 'На фотографии изображен памятник:',
@@ -93,7 +97,8 @@ const questions = [
             'Д.Карбышеву',
             'А.Анищенко',
         ],
-        rightAnswer: 0
+        rightAnswer: 0,
+        QuestionImg: 'https://sun9-15.userapi.com/impg/mNfeEbUGVU-QH3IFCet_eYtIjhyWmwYP0GneVQ/-Al61kiaV7g.jpg?size=1125x1500&quality=96&sign=46c1db6bd02ba4602f6ba4a79a2be3db&type=album',
     },
     {
         question: 'Памятник «Единство фронта и тыла» находится:',
@@ -104,7 +109,8 @@ const questions = [
             'В центральном парке культуры и отдыха',
             'У кфс',
         ],
-        rightAnswer: 2
+        rightAnswer: 2,
+        QuestionImg: 'https://sun9-62.userapi.com/impg/2PPjD6Z7Rbdz5mpxCX669NmkddyqQu9mLnmQHg/dCaGEFHTHPc.jpg?size=1620x2160&quality=96&sign=700c13e6043bb63e1a47a101e146eb0b&type=album',
     },
     {
         question: 'Корабельная роща получила свое название',
@@ -115,7 +121,8 @@ const questions = [
             'Из которых делали мачты для кораблей',
             'В ней росли сосны, годные для изготовления корабельных мачт',
         ],
-        rightAnswer: 3
+        rightAnswer: 3,
+        QuestionImg: 'https://sun9-51.userapi.com/impg/QZQv2pN1jTXr9mdSSyxeCx_rPAJ-Fd8WAA2aXA/U1q44jw0UIE.jpg?size=900x600&quality=96&sign=421b6c3c47c666b9ca99639686d7f599&type=album',
     },
     {
         question: 'Как первоуральцы называют инновационный культурный центр?',
@@ -126,7 +133,8 @@ const questions = [
             'Окно',
             'Бутылка',
         ],
-        rightAnswer: 0
+        rightAnswer: 0,
+        QuestionImg: 'https://sun9-65.userapi.com/impg/_fOh8pwRVbIXrIzr1uIGBqpTLcpKbs2BQuHSGQ/FSYGaZWiC3g.jpg?size=1275x850&quality=96&sign=b74edb2b92adf4adf4c7c75dbd2c7812&type=album',
     },
     {
         question: 'Современная стела «Европа-Азия» построена из',
@@ -137,7 +145,8 @@ const questions = [
             'Мрамора',
             'Земли',
         ],
-        rightAnswer: 2
+        rightAnswer: 2,
+        QuestionImg: 'https://sun9-64.userapi.com/impg/ehp0_SpQWpSy9TepJy6ueMOpJUBQMO-EcJiIUw/S7ih-svvMjg.jpg?size=1170x658&quality=96&sign=929d8e86d954cb1bec8bd1d273fff2b7&type=album',
     },
     {
         question: 'Первоначально наш населенный пункт назывался:',
@@ -148,7 +157,8 @@ const questions = [
             'Васильево-Шайтанский завод',
             'Ревда',
         ],
-        rightAnswer: 2
+        rightAnswer: 2,
+        QuestionImg: 'https://sun9-66.userapi.com/impg/OoxI_xkTN3PJd72HWTddxhAF8HA1q2IhDg3gog/L95l6lCMotE.jpg?size=1152x652&quality=96&sign=9ec701c4c5f24f31c9b9e6146d8dfab4&type=album',
     },
     {
         question: 'Какое животное изображено на гербе города:',
@@ -159,7 +169,8 @@ const questions = [
             'Белка',
             'Соболь',
         ],
-        rightAnswer: 3
+        rightAnswer: 3,
+        QuestionImg: 'https://sun9-8.userapi.com/impg/gXiQhTnpQJ-1yiwN86KyUWFsxFLnVK4Luvswsg/2CmbFEeK79E.jpg?size=600x600&quality=96&sign=01470bb2ab2dd06d71272e7b8ca57d26&type=album',
     },
     {
         question: 'Первый железоделательный и чугуноделательный завод в Васильево-Шайтанском поселке выпустил первый чугун в',
@@ -170,7 +181,8 @@ const questions = [
             '19 веке',
             '20 веке',
         ],
-        rightAnswer: 1
+        rightAnswer: 1,
+        QuestionImg: '',
     },
     {
         question: 'Что символизирует соболь на гербе Первоуральска:',
@@ -181,7 +193,8 @@ const questions = [
             'Черты уральского характера',
             'Птицу',
         ],
-        rightAnswer: 0
+        rightAnswer: 0,
+        QuestionImg: 'https://sun9-1.userapi.com/impg/I0OdqDXSBmhvelFtCDhIcvsYCobuYgYpg9dyMA/Dr7rzjDaDLw.jpg?size=1332x850&quality=96&sign=de6d6dee4cd98f90f19ebea74f425b6d&type=album',
     },
     {
         question: 'Первоуральск получил статус города и современное название в:',
@@ -192,7 +205,8 @@ const questions = [
             '20 веке',
             '21 веке',
         ],
-        rightAnswer: 2
+        rightAnswer: 2,
+        QuestionImg: '',
     },
     {
         question: 'Первоуральск стоит на реке:',
@@ -203,7 +217,8 @@ const questions = [
             'Волга',
             'Чусовая',
         ],
-        rightAnswer: 3
+        rightAnswer: 3,
+        QuestionImg: 'https://sun9-33.userapi.com/impg/TlSHSCxtbUXD1sNUsHFt0sY9hs6IAmMnG9NUkA/ThGkTlyCWvA.jpg?size=1024x680&quality=96&sign=af6592e2e4db0aed0560685efe98c4ac&type=album',
     },
     {
         question: 'Первоуральск находиться в:',
@@ -214,7 +229,8 @@ const questions = [
             'Африке',
             'Казахстан',
         ],
-        rightAnswer: 0
+        rightAnswer: 0,
+        QuestionImg: '',
     },
     {
         question: 'Какие деревья не растут в окрестностях Первоуральска:',
@@ -225,7 +241,8 @@ const questions = [
             'Береза',
             'Ясень',
         ],
-        rightAnswer: 3
+        rightAnswer: 3,
+        QuestionImg: 'https://sun9-34.userapi.com/impg/o0AwA09f9UEVgDMJOSRJlkG-EstwGRVIsM_wmA/QU5kLAJq9Do.jpg?size=1200x900&quality=96&sign=7e20114604b5e53b9f88fd0a57672f6a&type=album',
     },
     {
         question: 'Первоуральск – это:',
@@ -236,7 +253,20 @@ const questions = [
             'Посёлок городского типа',
             'Село',
         ],
-        rightAnswer: 0
+        rightAnswer: 0,
+        QuestionImg: '',
+    },
+    {
+        question: 'Самое крупное животное в уральских лесах – это',
+        voprosName: 'География',
+        options: [
+            'Рысь',
+            'Медведь',
+            'Лось',
+            'Волк',
+        ],
+        rightAnswer: 2,
+        QuestionImg: 'https://sun9-69.userapi.com/impg/jsB5UuemOqUkRGsGQrV8E9K_-MGn_zrDYqnUMg/59B9MIEMSzg.jpg?size=962x768&quality=96&sign=74a82b82dcc2b7759503b945929c1385&type=album',
     },
     {
         question: 'Первоуральск находится в:',
@@ -247,7 +277,8 @@ const questions = [
             'Свердловской области',
             'Челябинской области',
         ],
-        rightAnswer: 2
+        rightAnswer: 2,
+        QuestionImg: '',
     },
     {
         question: 'Первый владелец завода в поселке Васильево-Шайтанский завод:',
@@ -258,7 +289,8 @@ const questions = [
             'Демидов',
             'Ковалёв',
         ],
-        rightAnswer: 2
+        rightAnswer: 2,
+        QuestionImg: 'https://sun9-82.userapi.com/impg/_tCLRwh1XmfIqoshA_BRL00lt9obW4iYq9VerQ/FXvnQ2tZtcU.jpg?size=600x806&quality=96&sign=627f09a4b7635dd0ec058b3a69e39bac&type=album',
     },
     {
         question: 'Уральский трубник» - команда суперлиги по:',
@@ -269,7 +301,8 @@ const questions = [
             'Футболу',
             'Баскетболу',
         ],
-        rightAnswer: 0
+        rightAnswer: 0,
+        QuestionImg: 'https://sun9-57.userapi.com/impg/G6maK5kfFW88vuh83O7bpJhqHDrt6sHW-lA_NQ/mMei_7YTzlM.jpg?size=1320x708&quality=96&sign=9c20a72afa556fb74a0324fa9cb544de&type=album',
     },
     {
         question: 'Жителей нашего города называют:',
@@ -280,7 +313,8 @@ const questions = [
             'Первоуряне',
             'Первочане',
         ],
-        rightAnswer: 0
+        rightAnswer: 0,
+        QuestionImg: '',
     },
     {
         question: 'Шайтан в переводе означает:',
@@ -291,18 +325,20 @@ const questions = [
             'Лесной дух',
             'Узбек',
         ],
-        rightAnswer: 1
+        rightAnswer: 1,
+        QuestionImg: '',
     },
     {
-        question: 'На какой фотографии изображен Новотрубный завод:',
+        question: 'Какой завод изображён на фото?',
         voprosName: 'Промышленность',
         options: [
-            '1',
-            '2',
-            '3',
-            '4',
+            'Новотрубный завод',
+            'НТМК',
+            'СЗПМ',
+            'РСМ',
         ],
-        rightAnswer: 3
+        rightAnswer: 3,
+        QuestionImg: 'https://sun9-64.userapi.com/impg/nmB0E4WLbPC9Poh6rnqS3oTkAKEGQG2O-3dURw/CbGF77fQPyw.jpg?size=1200x848&quality=96&sign=68a22d3e3b8c1f50304150c390bcc446&type=album',
     },
     {
         question: 'Что не выпускают в Первоуральске:',
@@ -313,7 +349,8 @@ const questions = [
             'Огнеупорный кирпич',
             'Тракторы',
         ],
-        rightAnswer: 3
+        rightAnswer: 3,
+        QuestionImg: 'https://sun9-41.userapi.com/impg/nO9Mi5Aql6RdY6BbToENm9pm5MRw4-tD6ti8XQ/YuqOkVuLXo0.jpg?size=2048x1152&quality=96&sign=2d819f85c58c6466e8c9a8299c310dc0&type=album',
     },
     {
         question: 'Какой завод является самым крупным, градообразующим?',
@@ -324,7 +361,8 @@ const questions = [
             'Новотрубный',
             'Горного оборудования',
         ],
-        rightAnswer: 2
+        rightAnswer: 2,
+        QuestionImg: '',
     },
     {
         question: 'Какого транспорта нет в нашем городе:',
@@ -335,7 +373,8 @@ const questions = [
             'Автомобиля',
             'Троллейбус',
         ],
-        rightAnswer: 0
+        rightAnswer: 0,
+        QuestionImg: '',
     },
     {
         question: 'Какого завода нет в Первоуральске:',
@@ -346,17 +385,29 @@ const questions = [
             'Динас',
             'НТЗ',
         ],
-        rightAnswer: 1
+        rightAnswer: 1,
+        QuestionImg: '',
     },
 ];
 
 numberOfAllQuestion.innerHTML = questions.length  // количество вопросов всех вопросов
 
 
+
 const load = () => {
     question.innerHTML = questions[indexOfQuestion].question //вопрос
     voprosName.innerHTML = questions[indexOfQuestion].voprosName //категория
-    QuestionImg.innerHTML = questions[indexOfQuestion].QuestionImg
+
+    
+    if(questions[indexOfQuestion].QuestionImg == '') {
+        console.log('===>>> CheckImg')
+        QuestionImg.classList.add('noactive'), 
+        question.classList.add('questionNoActive')
+     } else {
+        question.classList.remove('questionNoActive')
+        QuestionImg.classList.remove('noactive'), 
+        QuestionImg.src = questions[indexOfQuestion].QuestionImg
+     }
 
     option1.innerHTML = questions[indexOfQuestion].options[0]; //Варианты ответов
     option2.innerHTML = questions[indexOfQuestion].options[1];

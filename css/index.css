@@ -21,19 +21,32 @@ body {
   padding-bottom: 10px;
 }
 
-#question {
-  max-width: 500px;;
+.questionNoActive {
+  max-width: none !important;
   font-size: 24px;
   color: #000000;
   padding: 15px 0;
   margin-bottom: 10px;
 }
 
+#question {
+  max-width: 500px;
+  font-size: 24px;
+  color: #000000;
+  padding: 15px 0;
+  margin-bottom: 10px;
+}
+
+
 #QuestionImg {
   left: 625px;
   position: absolute;
   width: 300px;
   height: 300px;
+}
+
+.noactive {
+  display: none;
 }
 
 .option {
