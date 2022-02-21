@@ -22,6 +22,8 @@ const btnNext = document.getElementById('btn-next');
 let score = 0; //результат 
 
 const QuestionImg = document.getElementById('QuestionImg');
+const QuestionAudio = document.getElementById('audioQuestion');
+
 
 const correctAnswer = document.getElementById('correct-answer'),
       numberOfAllQuestion2 = document.getElementById('number-of-all-questions-2'),
@@ -38,7 +40,8 @@ const questions = [
             'Папанинцев',
         ],
         rightAnswer: 0,
-        QuestionImg: 'https://sun9-50.userapi.com/impg/f3pAvE8iUsAIa7nwcnVIJP5s8yIjYW9af-b1ow/E7wUm7RlTG4.jpg?size=700x564&quality=96&sign=7e71d0978a3c5a4ecb42217b8511ff9f&type=album',
+        QuestionImg: '',
+        QuestionAudio: 'Audio/Bones - HDMI.mp3'
     },
     {
         question: 'Дворец ледовых видов спорта находится на улице:',
@@ -51,6 +54,7 @@ const questions = [
         ],
         rightAnswer: 2,
         QuestionImg: 'https://sun9-33.userapi.com/impg/XUDB_945zyNr2cWCL0z49qYNkGgt7NtVhMFZpQ/MD2omb0HOE8.jpg?size=999x446&quality=96&sign=282b28bf78bdc6a0654dfc33441f72fa&type=album',
+        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
     },
     {
         question: 'Какая улица названа в честь космонавта:',
@@ -63,6 +67,7 @@ const questions = [
         ],
         rightAnswer: 3,
         QuestionImg: 'https://sun9-68.userapi.com/impg/wE2dGG5M6OA-JaMLSjJRd2RfVUzn0IkhQTN-MA/SfVKHJOmKjg.jpg?size=1513x2048&quality=96&sign=42ccd2e09e79a2f542640e045b184a70&type=album',
+        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
     },
     {
         question: 'На фотографии изображена улица:',
@@ -75,6 +80,7 @@ const questions = [
         ],
         rightAnswer: 0,
         QuestionImg: 'https://sun9-88.userapi.com/impg/wH11oGm6RiV00LjKM70PZZsSz9DZAh7fuTWIxg/CzY8K4_VMQA.jpg?size=1024x768&quality=96&sign=455ef320c4cecb336bba88ac7d22b6b7&type=album',
+        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
     },
     {
         question: 'Исторически самая старая часть города называется:',
@@ -86,7 +92,8 @@ const questions = [
             'Самстрой',
         ],
         rightAnswer: 0,
-        QuestionImg: 'http://photos.wikimapia.org/p/00/05/49/46/00_big.jpg',
+        QuestionImg: '',
+        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
     },
     {
         question: 'На фотографии изображен памятник:',
@@ -99,6 +106,7 @@ const questions = [
         ],
         rightAnswer: 0,
         QuestionImg: 'https://sun9-15.userapi.com/impg/mNfeEbUGVU-QH3IFCet_eYtIjhyWmwYP0GneVQ/-Al61kiaV7g.jpg?size=1125x1500&quality=96&sign=46c1db6bd02ba4602f6ba4a79a2be3db&type=album',
+        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
     },
     {
         question: 'Памятник «Единство фронта и тыла» находится:',
@@ -111,6 +119,7 @@ const questions = [
         ],
         rightAnswer: 2,
         QuestionImg: 'https://sun9-62.userapi.com/impg/2PPjD6Z7Rbdz5mpxCX669NmkddyqQu9mLnmQHg/dCaGEFHTHPc.jpg?size=1620x2160&quality=96&sign=700c13e6043bb63e1a47a101e146eb0b&type=album',
+        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
     },
     {
         question: 'Корабельная роща получила свое название',
@@ -123,6 +132,7 @@ const questions = [
         ],
         rightAnswer: 3,
         QuestionImg: 'https://sun9-51.userapi.com/impg/QZQv2pN1jTXr9mdSSyxeCx_rPAJ-Fd8WAA2aXA/U1q44jw0UIE.jpg?size=900x600&quality=96&sign=421b6c3c47c666b9ca99639686d7f599&type=album',
+        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
     },
     {
         question: 'Как первоуральцы называют инновационный культурный центр?',
@@ -135,6 +145,7 @@ const questions = [
         ],
         rightAnswer: 0,
         QuestionImg: 'https://sun9-65.userapi.com/impg/_fOh8pwRVbIXrIzr1uIGBqpTLcpKbs2BQuHSGQ/FSYGaZWiC3g.jpg?size=1275x850&quality=96&sign=b74edb2b92adf4adf4c7c75dbd2c7812&type=album',
+        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
     },
     {
         question: 'Современная стела «Европа-Азия» построена из',
@@ -147,6 +158,7 @@ const questions = [
         ],
         rightAnswer: 2,
         QuestionImg: 'https://sun9-64.userapi.com/impg/ehp0_SpQWpSy9TepJy6ueMOpJUBQMO-EcJiIUw/S7ih-svvMjg.jpg?size=1170x658&quality=96&sign=929d8e86d954cb1bec8bd1d273fff2b7&type=album',
+        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
     },
     {
         question: 'Первоначально наш населенный пункт назывался:',
@@ -159,6 +171,7 @@ const questions = [
         ],
         rightAnswer: 2,
         QuestionImg: 'https://sun9-66.userapi.com/impg/OoxI_xkTN3PJd72HWTddxhAF8HA1q2IhDg3gog/L95l6lCMotE.jpg?size=1152x652&quality=96&sign=9ec701c4c5f24f31c9b9e6146d8dfab4&type=album',
+        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
     },
     {
         question: 'Какое животное изображено на гербе города:',
@@ -171,6 +184,7 @@ const questions = [
         ],
         rightAnswer: 3,
         QuestionImg: 'https://sun9-8.userapi.com/impg/gXiQhTnpQJ-1yiwN86KyUWFsxFLnVK4Luvswsg/2CmbFEeK79E.jpg?size=600x600&quality=96&sign=01470bb2ab2dd06d71272e7b8ca57d26&type=album',
+        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
     },
     {
         question: 'Первый железоделательный и чугуноделательный завод в Васильево-Шайтанском поселке выпустил первый чугун в',
@@ -183,6 +197,7 @@ const questions = [
         ],
         rightAnswer: 1,
         QuestionImg: '',
+        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
     },
     {
         question: 'Что символизирует соболь на гербе Первоуральска:',
@@ -195,6 +210,7 @@ const questions = [
         ],
         rightAnswer: 0,
         QuestionImg: 'https://sun9-1.userapi.com/impg/I0OdqDXSBmhvelFtCDhIcvsYCobuYgYpg9dyMA/Dr7rzjDaDLw.jpg?size=1332x850&quality=96&sign=de6d6dee4cd98f90f19ebea74f425b6d&type=album',
+        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
     },
     {
         question: 'Первоуральск получил статус города и современное название в:',
@@ -207,6 +223,7 @@ const questions = [
         ],
         rightAnswer: 2,
         QuestionImg: '',
+        QuestionAudio: ''
     },
     {
         question: 'Первоуральск стоит на реке:',
@@ -219,6 +236,7 @@ const questions = [
         ],
         rightAnswer: 3,
         QuestionImg: 'https://sun9-33.userapi.com/impg/TlSHSCxtbUXD1sNUsHFt0sY9hs6IAmMnG9NUkA/ThGkTlyCWvA.jpg?size=1024x680&quality=96&sign=af6592e2e4db0aed0560685efe98c4ac&type=album',
+        QuestionAudio: ''
     },
     {
         question: 'Первоуральск находиться в:',
@@ -231,6 +249,7 @@ const questions = [
         ],
         rightAnswer: 0,
         QuestionImg: '',
+        QuestionAudio: ''
     },
     {
         question: 'Какие деревья не растут в окрестностях Первоуральска:',
@@ -243,6 +262,7 @@ const questions = [
         ],
         rightAnswer: 3,
         QuestionImg: 'https://sun9-34.userapi.com/impg/o0AwA09f9UEVgDMJOSRJlkG-EstwGRVIsM_wmA/QU5kLAJq9Do.jpg?size=1200x900&quality=96&sign=7e20114604b5e53b9f88fd0a57672f6a&type=album',
+        QuestionAudio: ''
     },
     {
         question: 'Первоуральск – это:',
@@ -254,7 +274,8 @@ const questions = [
             'Село',
         ],
         rightAnswer: 0,
-        QuestionImg: '',
+        QuestionImg: 'https://sun9-66.userapi.com/impg/nDXmtrODT275xOGvhn82NKtKniHljo-biF0ALQ/4c6ZZmhzHls.jpg?size=1920x1280&quality=96&sign=9744b284a52f437643bcba8d5f157cc6&type=album',
+        QuestionAudio: ''
     },
     {
         question: 'Самое крупное животное в уральских лесах – это',
@@ -266,7 +287,8 @@ const questions = [
             'Волк',
         ],
         rightAnswer: 2,
-        QuestionImg: 'https://sun9-69.userapi.com/impg/jsB5UuemOqUkRGsGQrV8E9K_-MGn_zrDYqnUMg/59B9MIEMSzg.jpg?size=962x768&quality=96&sign=74a82b82dcc2b7759503b945929c1385&type=album',
+        QuestionImg: '',
+        QuestionAudio: ''
     },
     {
         question: 'Первоуральск находится в:',
@@ -279,6 +301,7 @@ const questions = [
         ],
         rightAnswer: 2,
         QuestionImg: '',
+        QuestionAudio: ''
     },
     {
         question: 'Первый владелец завода в поселке Васильево-Шайтанский завод:',
@@ -291,6 +314,7 @@ const questions = [
         ],
         rightAnswer: 2,
         QuestionImg: 'https://sun9-82.userapi.com/impg/_tCLRwh1XmfIqoshA_BRL00lt9obW4iYq9VerQ/FXvnQ2tZtcU.jpg?size=600x806&quality=96&sign=627f09a4b7635dd0ec058b3a69e39bac&type=album',
+        QuestionAudio: ''
     },
     {
         question: 'Уральский трубник» - команда суперлиги по:',
@@ -303,6 +327,7 @@ const questions = [
         ],
         rightAnswer: 0,
         QuestionImg: 'https://sun9-57.userapi.com/impg/G6maK5kfFW88vuh83O7bpJhqHDrt6sHW-lA_NQ/mMei_7YTzlM.jpg?size=1320x708&quality=96&sign=9c20a72afa556fb74a0324fa9cb544de&type=album',
+        QuestionAudio: ''
     },
     {
         question: 'Жителей нашего города называют:',
@@ -315,6 +340,7 @@ const questions = [
         ],
         rightAnswer: 0,
         QuestionImg: '',
+        QuestionAudio: ''
     },
     {
         question: 'Шайтан в переводе означает:',
@@ -327,6 +353,7 @@ const questions = [
         ],
         rightAnswer: 1,
         QuestionImg: '',
+        QuestionAudio: ''
     },
     {
         question: 'Какой завод изображён на фото?',
@@ -339,6 +366,7 @@ const questions = [
         ],
         rightAnswer: 3,
         QuestionImg: 'https://sun9-64.userapi.com/impg/nmB0E4WLbPC9Poh6rnqS3oTkAKEGQG2O-3dURw/CbGF77fQPyw.jpg?size=1200x848&quality=96&sign=68a22d3e3b8c1f50304150c390bcc446&type=album',
+        QuestionAudio: ''
     },
     {
         question: 'Что не выпускают в Первоуральске:',
@@ -350,7 +378,8 @@ const questions = [
             'Тракторы',
         ],
         rightAnswer: 3,
-        QuestionImg: 'https://sun9-41.userapi.com/impg/nO9Mi5Aql6RdY6BbToENm9pm5MRw4-tD6ti8XQ/YuqOkVuLXo0.jpg?size=2048x1152&quality=96&sign=2d819f85c58c6466e8c9a8299c310dc0&type=album',
+        QuestionImg: '',
+        QuestionAudio: ''
     },
     {
         question: 'Какой завод является самым крупным, градообразующим?',
@@ -362,7 +391,8 @@ const questions = [
             'Горного оборудования',
         ],
         rightAnswer: 2,
-        QuestionImg: '',
+        QuestionImg: 'https://sun9-49.userapi.com/impg/BTw79FlNN4ub6pau0dBA-2dW_UJjebYdxHmqKQ/IBLLeKTkkMw.jpg?size=600x418&quality=96&sign=6e8d1f3f2903bd163c5a27ad4ef2f6fe&type=album',
+        QuestionAudio: ''
     },
     {
         question: 'Какого транспорта нет в нашем городе:',
@@ -375,6 +405,7 @@ const questions = [
         ],
         rightAnswer: 0,
         QuestionImg: '',
+        QuestionAudio: ''
     },
     {
         question: 'Какого завода нет в Первоуральске:',
@@ -386,7 +417,7 @@ const questions = [
             'НТЗ',
         ],
         rightAnswer: 1,
-        QuestionImg: '',
+        QuestionAudio: 'Audio/Bones - HDMI.mp3'
     },
 ];
 
@@ -397,9 +428,8 @@ numberOfAllQuestion.innerHTML = questions.length  // количество воп
 const load = () => {
     question.innerHTML = questions[indexOfQuestion].question //вопрос
     voprosName.innerHTML = questions[indexOfQuestion].voprosName //категория
-
     
-    if(questions[indexOfQuestion].QuestionImg == '') {
+    if(questions[indexOfQuestion].QuestionImg == '') { //проверка на пустую строку для ссылки на фото
         console.log('===>>> CheckImg')
         QuestionImg.classList.add('noactive'), 
         question.classList.add('questionNoActive')
@@ -407,6 +437,14 @@ const load = () => {
         question.classList.remove('questionNoActive')
         QuestionImg.classList.remove('noactive'), 
         QuestionImg.src = questions[indexOfQuestion].QuestionImg
+     }
+
+     if(questions[indexOfQuestion].QuestionAudio == '') { //проверка на пустую строку для ссылки на аудио
+        console.log('===>>> CheckAudio')
+        QuestionAudio.classList.add('audioNoActive')
+     } else {
+        QuestionAudio.classList.remove('audioNoActive')
+        QuestionAudio.src = questions[indexOfQuestion].QuestionAudio
      }
 
     option1.innerHTML = questions[indexOfQuestion].options[0]; //Варианты ответов

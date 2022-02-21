@@ -37,12 +37,20 @@ body {
   margin-bottom: 10px;
 }
 
+#audioQuestion {
+  position: relative;
+  top: 8px;
+}
 
 #QuestionImg {
   left: 625px;
   position: absolute;
   width: 300px;
   height: 300px;
+}
+
+.audioNoActive {
+  display: none;
 }
 
 .noactive {
