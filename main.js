@@ -417,6 +417,7 @@ const questions = [
             'НТЗ',
         ],
         rightAnswer: 1,
+        QuestionImg: '',
         QuestionAudio: 'Audio/Bones - HDMI.mp3'
     },
 ];
