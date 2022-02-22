@@ -171,7 +171,7 @@ const questions = [
         ],
         rightAnswer: 2,
         QuestionImg: 'https://sun9-66.userapi.com/impg/OoxI_xkTN3PJd72HWTddxhAF8HA1q2IhDg3gog/L95l6lCMotE.jpg?size=1152x652&quality=96&sign=9ec701c4c5f24f31c9b9e6146d8dfab4&type=album',
-        QuestionAudio: '4.m4a'
+        QuestionAudio: 'Audio/4.m4a'
     },
     {
         question: 'Какое животное изображено на гербе города:',
@@ -184,7 +184,7 @@ const questions = [
         ],
         rightAnswer: 3,
         QuestionImg: 'https://sun9-8.userapi.com/impg/gXiQhTnpQJ-1yiwN86KyUWFsxFLnVK4Luvswsg/2CmbFEeK79E.jpg?size=600x600&quality=96&sign=01470bb2ab2dd06d71272e7b8ca57d26&type=album',
-        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
+        QuestionAudio: ''
     },
     {
         question: 'Первый железоделательный и чугуноделательный завод в Васильево-Шайтанском поселке выпустил первый чугун в',
