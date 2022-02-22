@@ -41,7 +41,7 @@ const questions = [
         ],
         rightAnswer: 0,
         QuestionImg: '',
-        QuestionAudio: 'Audio/Bones - HDMI.mp3'
+        QuestionAudio: 'Audio/2(2).m4a'
     },
     {
         question: 'Дворец ледовых видов спорта находится на улице:',
@@ -54,7 +54,7 @@ const questions = [
         ],
         rightAnswer: 2,
         QuestionImg: 'https://sun9-33.userapi.com/impg/XUDB_945zyNr2cWCL0z49qYNkGgt7NtVhMFZpQ/MD2omb0HOE8.jpg?size=999x446&quality=96&sign=282b28bf78bdc6a0654dfc33441f72fa&type=album',
-        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
+        QuestionAudio: ''
     },
     {
         question: 'Какая улица названа в честь космонавта:',
@@ -67,7 +67,7 @@ const questions = [
         ],
         rightAnswer: 3,
         QuestionImg: 'https://sun9-68.userapi.com/impg/wE2dGG5M6OA-JaMLSjJRd2RfVUzn0IkhQTN-MA/SfVKHJOmKjg.jpg?size=1513x2048&quality=96&sign=42ccd2e09e79a2f542640e045b184a70&type=album',
-        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
+        QuestionAudio: ''
     },
     {
         question: 'На фотографии изображена улица:',
@@ -80,7 +80,7 @@ const questions = [
         ],
         rightAnswer: 0,
         QuestionImg: 'https://sun9-88.userapi.com/impg/wH11oGm6RiV00LjKM70PZZsSz9DZAh7fuTWIxg/CzY8K4_VMQA.jpg?size=1024x768&quality=96&sign=455ef320c4cecb336bba88ac7d22b6b7&type=album',
-        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
+        QuestionAudio: ''
     },
     {
         question: 'Исторически самая старая часть города называется:',
@@ -93,7 +93,7 @@ const questions = [
         ],
         rightAnswer: 0,
         QuestionImg: '',
-        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
+        QuestionAudio: ''
     },
     {
         question: 'На фотографии изображен памятник:',
@@ -106,7 +106,7 @@ const questions = [
         ],
         rightAnswer: 0,
         QuestionImg: 'https://sun9-15.userapi.com/impg/mNfeEbUGVU-QH3IFCet_eYtIjhyWmwYP0GneVQ/-Al61kiaV7g.jpg?size=1125x1500&quality=96&sign=46c1db6bd02ba4602f6ba4a79a2be3db&type=album',
-        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
+        QuestionAudio: 'Audio/3.m4a'
     },
     {
         question: 'Памятник «Единство фронта и тыла» находится:',
@@ -119,7 +119,7 @@ const questions = [
         ],
         rightAnswer: 2,
         QuestionImg: 'https://sun9-62.userapi.com/impg/2PPjD6Z7Rbdz5mpxCX669NmkddyqQu9mLnmQHg/dCaGEFHTHPc.jpg?size=1620x2160&quality=96&sign=700c13e6043bb63e1a47a101e146eb0b&type=album',
-        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
+        QuestionAudio: ''
     },
     {
         question: 'Корабельная роща получила свое название',
@@ -132,7 +132,7 @@ const questions = [
         ],
         rightAnswer: 3,
         QuestionImg: 'https://sun9-51.userapi.com/impg/QZQv2pN1jTXr9mdSSyxeCx_rPAJ-Fd8WAA2aXA/U1q44jw0UIE.jpg?size=900x600&quality=96&sign=421b6c3c47c666b9ca99639686d7f599&type=album',
-        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
+        QuestionAudio: ''
     },
     {
         question: 'Как первоуральцы называют инновационный культурный центр?',
@@ -145,7 +145,7 @@ const questions = [
         ],
         rightAnswer: 0,
         QuestionImg: 'https://sun9-65.userapi.com/impg/_fOh8pwRVbIXrIzr1uIGBqpTLcpKbs2BQuHSGQ/FSYGaZWiC3g.jpg?size=1275x850&quality=96&sign=b74edb2b92adf4adf4c7c75dbd2c7812&type=album',
-        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
+        QuestionAudio: ''
     },
     {
         question: 'Современная стела «Европа-Азия» построена из',
@@ -158,7 +158,7 @@ const questions = [
         ],
         rightAnswer: 2,
         QuestionImg: 'https://sun9-64.userapi.com/impg/ehp0_SpQWpSy9TepJy6ueMOpJUBQMO-EcJiIUw/S7ih-svvMjg.jpg?size=1170x658&quality=96&sign=929d8e86d954cb1bec8bd1d273fff2b7&type=album',
-        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
+        QuestionAudio: ''
     },
     {
         question: 'Первоначально наш населенный пункт назывался:',
@@ -171,7 +171,7 @@ const questions = [
         ],
         rightAnswer: 2,
         QuestionImg: 'https://sun9-66.userapi.com/impg/OoxI_xkTN3PJd72HWTddxhAF8HA1q2IhDg3gog/L95l6lCMotE.jpg?size=1152x652&quality=96&sign=9ec701c4c5f24f31c9b9e6146d8dfab4&type=album',
-        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
+        QuestionAudio: '4.m4a'
     },
     {
         question: 'Какое животное изображено на гербе города:',
@@ -197,7 +197,7 @@ const questions = [
         ],
         rightAnswer: 1,
         QuestionImg: '',
-        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
+        QuestionAudio: ''
     },
     {
         question: 'Что символизирует соболь на гербе Первоуральска:',
@@ -210,7 +210,7 @@ const questions = [
         ],
         rightAnswer: 0,
         QuestionImg: 'https://sun9-1.userapi.com/impg/I0OdqDXSBmhvelFtCDhIcvsYCobuYgYpg9dyMA/Dr7rzjDaDLw.jpg?size=1332x850&quality=96&sign=de6d6dee4cd98f90f19ebea74f425b6d&type=album',
-        QuestionAudio: 'Audio/Bones - AirplaneMode.mp3'
+        QuestionAudio: ''
     },
     {
         question: 'Первоуральск получил статус города и современное название в:',
@@ -236,7 +236,7 @@ const questions = [
         ],
         rightAnswer: 3,
         QuestionImg: 'https://sun9-33.userapi.com/impg/TlSHSCxtbUXD1sNUsHFt0sY9hs6IAmMnG9NUkA/ThGkTlyCWvA.jpg?size=1024x680&quality=96&sign=af6592e2e4db0aed0560685efe98c4ac&type=album',
-        QuestionAudio: ''
+        QuestionAudio: 'Audio/5.m4a'
     },
     {
         question: 'Первоуральск находиться в:',
@@ -314,7 +314,7 @@ const questions = [
         ],
         rightAnswer: 2,
         QuestionImg: 'https://sun9-82.userapi.com/impg/_tCLRwh1XmfIqoshA_BRL00lt9obW4iYq9VerQ/FXvnQ2tZtcU.jpg?size=600x806&quality=96&sign=627f09a4b7635dd0ec058b3a69e39bac&type=album',
-        QuestionAudio: ''
+        QuestionAudio: 'Audio/6.m4a'
     },
     {
         question: 'Уральский трубник» - команда суперлиги по:',
@@ -366,7 +366,7 @@ const questions = [
         ],
         rightAnswer: 3,
         QuestionImg: 'https://sun9-64.userapi.com/impg/nmB0E4WLbPC9Poh6rnqS3oTkAKEGQG2O-3dURw/CbGF77fQPyw.jpg?size=1200x848&quality=96&sign=68a22d3e3b8c1f50304150c390bcc446&type=album',
-        QuestionAudio: ''
+        QuestionAudio: 'Audio/7.m4a'
     },
     {
         question: 'Что не выпускают в Первоуральске:',
@@ -418,7 +418,7 @@ const questions = [
         ],
         rightAnswer: 1,
         QuestionImg: '',
-        QuestionAudio: 'Audio/Bones - HDMI.mp3'
+        QuestionAudio: ''
     },
 ];
 
