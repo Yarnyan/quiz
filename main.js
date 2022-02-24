@@ -364,7 +364,7 @@ const questions = [
             'СЗПМ',
             'РСМ',
         ],
-        rightAnswer: 3,
+        rightAnswer: 0,
         QuestionImg: 'https://sun9-64.userapi.com/impg/nmB0E4WLbPC9Poh6rnqS3oTkAKEGQG2O-3dURw/CbGF77fQPyw.jpg?size=1200x848&quality=96&sign=68a22d3e3b8c1f50304150c390bcc446&type=album',
         QuestionAudio: 'Audio/7.m4a'
     },
@@ -401,7 +401,7 @@ const questions = [
             'Трамвай',
             'Автобус',
             'Автомобиля',
-            'Троллейбус',
+            'Самоката',
         ],
         rightAnswer: 0,
         QuestionImg: '',
