@@ -15,7 +15,7 @@ body {
   padding: 25px;
   z-index: 0;
 }
-
+/* модальное окно */
 .quiz-over-modal {
   display: none;
   border-radius: 10px;;
@@ -31,6 +31,13 @@ body {
 .content {
   padding: 15px;
   text-align: center;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: auto;
 }
 
 #btn-try-again {
@@ -55,6 +62,7 @@ body {
 }
 
 .contentText {
+  margin: 0 auto;
   color: white;
   font-size: 25px;
 }
@@ -72,7 +80,6 @@ body {
 
 .Btn {
   top: 50px;
-  left: 910px;
   color: #42b983;
   position: relative;
   border-radius: 99px;
