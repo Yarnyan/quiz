@@ -5,6 +5,7 @@ body {
 }
 
 .quiz-container {
+  top:30 px;
   position: relative;
   max-width: 1000px;
   min-width: 497px;
