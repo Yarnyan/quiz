@@ -44,7 +44,7 @@ const questions = [
         QuestionAudio: 'Audio/2(2).m4a'
     },
     {
-        question: 'Дворец ледовых видов спорта находится на улице:',
+        question: 'Дворец ледовых видов спорта находится на улице',
         voprosName: 'Улицы',
         options: [
             'Ленина',
@@ -57,7 +57,7 @@ const questions = [
         QuestionAudio: ''
     },
     {
-        question: 'Какая улица названа в честь космонавта:',
+        question: 'Какая улица названа в честь космонавта?',
         voprosName: 'Улицы',
         options: [
             'Емлина',
@@ -70,7 +70,7 @@ const questions = [
         QuestionAudio: ''
     },
     {
-        question: 'На фотографии изображена улица:',
+        question: 'На фотографии изображена улица',
         voprosName: 'Улицы',
         options: [
             'Ленина',
@@ -102,33 +102,33 @@ const questions = [
             'В.И.Ленину',
             'Ю.Фучику',
             'Д.Карбышеву',
-            'А.Анищенко',
+            'А.Пушкину',
         ],
         rightAnswer: 0,
         QuestionImg: 'https://sun9-15.userapi.com/impg/mNfeEbUGVU-QH3IFCet_eYtIjhyWmwYP0GneVQ/-Al61kiaV7g.jpg?size=1125x1500&quality=96&sign=46c1db6bd02ba4602f6ba4a79a2be3db&type=album',
         QuestionAudio: 'Audio/3.m4a'
     },
     {
-        question: 'Памятник «Единство фронта и тыла» находится:',
+        question: 'Памятник «Единство фронта и тыла» находится',
         voprosName: 'Достопримечательности',
         options: [
-            'У центральной проходной Новотрубного завода',
-            'На площади Победы',
-            'В центральном парке культуры и отдыха',
-            'У кфс',
+            'у центральной проходной Новотрубного завода',
+            'на площади Победы',
+            'в центральном парке культуры и отдыха',
+            'у пруда',
         ],
         rightAnswer: 2,
         QuestionImg: 'https://sun9-62.userapi.com/impg/2PPjD6Z7Rbdz5mpxCX669NmkddyqQu9mLnmQHg/dCaGEFHTHPc.jpg?size=1620x2160&quality=96&sign=700c13e6043bb63e1a47a101e146eb0b&type=album',
         QuestionAudio: ''
     },
     {
-        question: 'Корабельная роща получила свое название',
+        question: 'Корабельная роща получила свое название, потому что',
         voprosName: 'Достопримечательности',
         options: [
-            'Потому что в ней строили корабли',
-            'потому что в ней росли сосны',
-            'Из которых делали мачты для кораблей',
-            'В ней росли сосны, годные для изготовления корабельных мачт',
+            'в ней строили корабли',
+            'в ней росли сосны',
+            'в ней изготавливали корабельные  мачты',
+            'в ней росли сосны, годные для изготовления корабельных мачт',
         ],
         rightAnswer: 3,
         QuestionImg: 'https://sun9-51.userapi.com/impg/QZQv2pN1jTXr9mdSSyxeCx_rPAJ-Fd8WAA2aXA/U1q44jw0UIE.jpg?size=900x600&quality=96&sign=421b6c3c47c666b9ca99639686d7f599&type=album',
@@ -151,17 +151,17 @@ const questions = [
         question: 'Современная стела «Европа-Азия» построена из',
         voprosName: 'Достопримечательности',
         options: [
-            'Камня',
-            'Гранита',
-            'Мрамора',
-            'Земли',
+            'камня',
+            'гранита',
+            'мрамора',
+            'земли',
         ],
         rightAnswer: 2,
         QuestionImg: 'https://sun9-64.userapi.com/impg/ehp0_SpQWpSy9TepJy6ueMOpJUBQMO-EcJiIUw/S7ih-svvMjg.jpg?size=1170x658&quality=96&sign=929d8e86d954cb1bec8bd1d273fff2b7&type=album',
         QuestionAudio: ''
     },
     {
-        question: 'Первоначально наш населенный пункт назывался:',
+        question: 'Первоначально наш населенный пункт назывался',
         voprosName: 'История',
         options: [
             'Первоуральск',
@@ -174,7 +174,7 @@ const questions = [
         QuestionAudio: 'Audio/4.m4a'
     },
     {
-        question: 'Какое животное изображено на гербе города:',
+        question: 'Какое животное изображено на гербе города?',
         voprosName: 'История',
         options: [
             'Хорек',
@@ -200,20 +200,20 @@ const questions = [
         QuestionAudio: ''
     },
     {
-        question: 'Что символизирует соболь на гербе Первоуральска:',
+        question: 'Что символизирует соболь на гербе Первоуральска?',
         voprosName: 'История',
         options: [
             'Историческую роль Демидовых в освоении Урала',
             'Особенности местной фауны',
             'Черты уральского характера',
-            'Птицу',
+            'Природу Урала',
         ],
         rightAnswer: 0,
         QuestionImg: 'https://sun9-1.userapi.com/impg/I0OdqDXSBmhvelFtCDhIcvsYCobuYgYpg9dyMA/Dr7rzjDaDLw.jpg?size=1332x850&quality=96&sign=de6d6dee4cd98f90f19ebea74f425b6d&type=album',
         QuestionAudio: ''
     },
     {
-        question: 'Первоуральск получил статус города и современное название в:',
+        question: 'Первоуральск получил статус города и современное название в',
         voprosName: 'История',
         options: [
             '19 веке',
@@ -226,7 +226,7 @@ const questions = [
         QuestionAudio: ''
     },
     {
-        question: 'Первоуральск стоит на реке:',
+        question: 'Первоуральск стоит на реке',
         voprosName: 'География',
         options: [
             'Кама',
@@ -239,20 +239,20 @@ const questions = [
         QuestionAudio: 'Audio/5.m4a'
     },
     {
-        question: 'Первоуральск находиться в:',
+        question: 'Первоуральск находится в',
         voprosName: 'География',
         options: [
             'Европе',
             'Азии',
             'Африке',
-            'Казахстан',
+            'Казахстане',
         ],
         rightAnswer: 0,
         QuestionImg: '',
         QuestionAudio: ''
     },
     {
-        question: 'Какие деревья не растут в окрестностях Первоуральска:',
+        question: 'Какие деревья не растут в окрестностях Первоуральска?',
         voprosName: 'География',
         options: [
             'Сосна',
@@ -265,7 +265,7 @@ const questions = [
         QuestionAudio: ''
     },
     {
-        question: 'Первоуральск – это:',
+        question: 'Первоуральск – это',
         voprosName: 'География',
         options: [
             'Город',
@@ -291,7 +291,7 @@ const questions = [
         QuestionAudio: ''
     },
     {
-        question: 'Первоуральск находится в:',
+        question: 'Первоуральск находится в',
         voprosName: 'География',
         options: [
             'Пермской области',
@@ -304,52 +304,52 @@ const questions = [
         QuestionAudio: ''
     },
     {
-        question: 'Первый владелец завода в поселке Васильево-Шайтанский завод:',
+        question: 'Первый владелец завода в поселке Васильево-Шайтанский завод - ',
         voprosName: 'Люди',
         options: [
             'Строганов',
             'Турчанинов',
             'Демидов',
-            'Ковалёв',
+            'Яковлев',
         ],
         rightAnswer: 2,
         QuestionImg: 'https://sun9-82.userapi.com/impg/_tCLRwh1XmfIqoshA_BRL00lt9obW4iYq9VerQ/FXvnQ2tZtcU.jpg?size=600x806&quality=96&sign=627f09a4b7635dd0ec058b3a69e39bac&type=album',
         QuestionAudio: 'Audio/6.m4a'
     },
     {
-        question: 'Уральский трубник» - команда суперлиги по:',
+        question: 'Уральский трубник» - команда суперлиги по',
         voprosName: 'Люди',
         options: [
-            'Хоккею с мячом',
-            'Хоккею с шайбой',
-            'Футболу',
-            'Баскетболу',
+            'хоккею с мячом',
+            'хоккею с шайбой',
+            'футболу',
+            'баскетболу',
         ],
         rightAnswer: 0,
         QuestionImg: 'https://sun9-57.userapi.com/impg/G6maK5kfFW88vuh83O7bpJhqHDrt6sHW-lA_NQ/mMei_7YTzlM.jpg?size=1320x708&quality=96&sign=9c20a72afa556fb74a0324fa9cb544de&type=album',
         QuestionAudio: ''
     },
     {
-        question: 'Жителей нашего города называют:',
+        question: 'Жителей нашего города называют',
         voprosName: 'Люди',
         options: [
-            'Первоуральцы',
-            'Первики',
-            'Первоуряне',
-            'Первочане',
+            'первоуральцы',
+            'первики',
+            'первоуряне',
+            'первочане',
         ],
         rightAnswer: 0,
         QuestionImg: '',
         QuestionAudio: ''
     },
     {
-        question: 'Шайтан в переводе означает:',
+        question: 'Шайтан в переводе означает',
         voprosName: 'Люди',
         options: [
-            'Татарин',
-            'Черт',
-            'Лесной дух',
-            'Узбек',
+            'татарин',
+            'черт',
+            'лесной дух',
+            'узбек',
         ],
         rightAnswer: 1,
         QuestionImg: '',
@@ -361,15 +361,15 @@ const questions = [
         options: [
             'Новотрубный завод',
             'НТМК',
-            'СЗПМ',
-            'РСМ',
+            'Динас',
+            'Хромпик',
         ],
         rightAnswer: 0,
         QuestionImg: 'https://sun9-64.userapi.com/impg/nmB0E4WLbPC9Poh6rnqS3oTkAKEGQG2O-3dURw/CbGF77fQPyw.jpg?size=1200x848&quality=96&sign=68a22d3e3b8c1f50304150c390bcc446&type=album',
         QuestionAudio: 'Audio/7.m4a'
     },
     {
-        question: 'Что не выпускают в Первоуральске:',
+        question: 'Что не выпускают в Первоуральске?',
         voprosName: 'Промышленность',
         options: [
             'Хромовые соединения',
@@ -395,7 +395,7 @@ const questions = [
         QuestionAudio: ''
     },
     {
-        question: 'Какого транспорта нет в нашем городе:',
+        question: 'Какого транспорта нет в нашем городе?',
         voprosName: 'Промышленность',
         options: [
             'Трамвай',
@@ -408,7 +408,7 @@ const questions = [
         QuestionAudio: ''
     },
     {
-        question: 'Какого завода нет в Первоуральске:',
+        question: 'Какого завода нет в Первоуральске?',
         voprosName: 'Промышленность',
         options: [
             'Хромпик',
@@ -559,6 +559,7 @@ const validate = () => {                   //валидация ответов
     if(!optionElements[0].classList.contains('disabled')) {
         alert('Вам нужно выбрать один из вариантов ответа');
     } else {
+        quizOver
         question_run();
         enableOptions();
     }
