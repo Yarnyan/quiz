@@ -462,7 +462,7 @@ let i = 0;
 
 const question_run = () => {
     if(i === questions.length) {
-        quizOver()
+        quizOver();
     } else {
         indexOfQuestion = i;
         load();
@@ -559,7 +559,6 @@ const validate = () => {                   //валидация ответов
     if(!optionElements[0].classList.contains('disabled')) {
         alert('Вам нужно выбрать один из вариантов ответа');
     } else {
-        quizOver
         question_run();
         enableOptions();
     }
