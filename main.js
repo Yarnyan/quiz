@@ -21,8 +21,8 @@ const btnNext = document.getElementById('btn-next');
 
 let score = 0; //результат 
 
-const QuestionImg = document.getElementById('QuestionImg');
-const QuestionAudio = document.getElementById('audioQuestion');
+const QuestionImg = document.getElementById('QuestionImg'); //фотографии
+const QuestionAudio = document.getElementById('audioQuestion'); //аудио
 
 
 const correctAnswer = document.getElementById('correct-answer'),
