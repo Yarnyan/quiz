@@ -67,6 +67,12 @@ body {
   font-size: 25px;
 }
 
+.contentGlavText {
+  margin: 0 auto;
+  color: white;
+  font-size: 25px;
+}
+
 .GlavText {
   position: relative;
   top: 30px;
