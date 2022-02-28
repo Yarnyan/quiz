@@ -83,7 +83,7 @@ const questions = [
         QuestionAudio: ''
     },
     {
-        question: 'Исторически самая старая часть города называется:',
+        question: 'Исторически самая старая часть города называется',
         voprosName: 'Улицы',
         options: [
             'Шайтанка',
@@ -96,7 +96,7 @@ const questions = [
         QuestionAudio: ''
     },
     {
-        question: 'На фотографии изображен памятник:',
+        question: 'На фотографии изображен памятник',
         voprosName: 'Достопримечательности',
         options: [
             'В.И.Ленину',
@@ -268,10 +268,10 @@ const questions = [
         question: 'Первоуральск – это',
         voprosName: 'География',
         options: [
-            'Город',
-            'Посёлок',
-            'Посёлок городского типа',
-            'Село',
+            'город',
+            'посёлок',
+            'посёлок городского типа',
+            'село',
         ],
         rightAnswer: 0,
         QuestionImg: 'https://sun9-66.userapi.com/impg/nDXmtrODT275xOGvhn82NKtKniHljo-biF0ALQ/4c6ZZmhzHls.jpg?size=1920x1280&quality=96&sign=9744b284a52f437643bcba8d5f157cc6&type=album',
@@ -281,10 +281,10 @@ const questions = [
         question: 'Самое крупное животное в уральских лесах – это',
         voprosName: 'География',
         options: [
-            'Рысь',
-            'Медведь',
-            'Лось',
-            'Волк',
+            'рысь',
+            'медведь',
+            'лось',
+            'волк',
         ],
         rightAnswer: 2,
         QuestionImg: '',
@@ -400,8 +400,8 @@ const questions = [
         options: [
             'Трамвай',
             'Автобус',
-            'Автомобиля',
-            'Самоката',
+            'Автомобил',
+            'Самокат',
         ],
         rightAnswer: 0,
         QuestionImg: '',
