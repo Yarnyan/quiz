@@ -83,7 +83,7 @@ const questions = [
         QuestionAudio: ''
     },
     {
-        question: 'Исторически самая старая часть города называется:',
+        question: 'Исторически самая старая часть города называется',
         voprosName: 'Улицы',
         options: [
             'Шайтанка',
@@ -96,7 +96,7 @@ const questions = [
         QuestionAudio: ''
     },
     {
-        question: 'На фотографии изображен памятник:',
+        question: 'На фотографии изображен памятник',
         voprosName: 'Достопримечательности',
         options: [
             'В.И.Ленину',
@@ -400,8 +400,8 @@ const questions = [
         options: [
             'Трамвай',
             'Автобус',
-            'Автомобиля',
-            'Самоката',
+            'Автомобил',
+            'Самокат',
         ],
         rightAnswer: 0,
         QuestionImg: '',
