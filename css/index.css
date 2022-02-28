@@ -40,6 +40,12 @@ body {
   height: auto;
 }
 
+.mainBd {
+  background-image: url('https://sun9-45.userapi.com/impg/iKAOaiosi4CwA4m4EZgJBdIbM7xJdNKn0jEZLA/nB5vwzSK6pI.jpg?size=1152x754&quality=96&sign=ce4607da4671c64d08c1779ba12d4c48&type=album');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 #btn-try-again {
   color: #42b983;
   position: relative;
